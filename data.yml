@@ -1,0 +1,197 @@
+basic:
+  name: Shuntaro Nishizawa
+  aka: しゅん🌙
+  birthday: 2003-04-22
+  interested:
+    - Web開発
+    - Webアクセシビリティ
+    - ネットワーク
+    - セキュリティ
+    - アーキテクチャ
+    - 関数型プログラミング
+
+history:
+  - date:
+      start: "2019-04"
+      end: "2024-03"
+    title: 長野工業高等専門学校
+    attribute: 電子情報工学科
+  - date:
+      start: "2020-10"
+    title: C-Style株式会社
+    attribute: エンジニア
+    description: |
+      スタートアップ企業にて自社サービスの開発や受託開発に携わっています。
+  - date: "2022-03"
+    title: pixiv株式会社
+    attribute: インターンシップ
+    description: |
+      春の短期インターンシップに参加し、pixivFANBOXのフロントエンドにおけるパフォーマンス改善を担当しました。
+  - date: "2022-08"
+    title: Chatwork株式会社
+    attribute: インターンシップ
+    description: |
+      夏の短期インターンシップに参加し、DDDやアジャイル/スクラム開発を用いてWebアプリケーションの開発をチームで行いました。
+
+events:
+  - date: "2020-05"
+    title: TwoGate Dev Camp 2020 Springに参加
+    techs:
+      - TypeScript
+      - Python
+      - Angular
+    links:
+      - name: TwoGate Dev Camp 2020 Spring 開催概要
+        url: https://devcamp.twogate.com/2020
+
+  - date: "2020-08"
+    title: Open Hack U 2020 Online Vol.1に参加
+    description: |
+      2週間のハッカソンに友人4人と参加しました。
+      2.5次元黒板という、ARでオブジェクトを映し出すことの出来る黒板アプリを作成しました。
+      主にフロントエンドとARでの表示部分の開発を担当しました。
+    techs:
+      - TypeScript
+      - Rust
+      - React
+    links:
+      - name: Open Hack U 2020 Online Vol.1 開催概要
+        url: https://hacku.yahoo.co.jp/hacku2020online1
+      - name: 2.5次元黒板のGitHub
+        url: https://github.com/ProvinDevs/2020vol1-frontend
+      - name: 2.5次元黒板のプレゼン動画
+        url: https://youtu.be/bQW1SYFAc2Q?t=2090
+
+  - date: "2020-11"
+    title: KOSENセキュリティ・コンテスト2020に参加
+
+  - date: "2021-01"
+    title: サポーターズウィンターハッカソン 最優秀賞
+    description: |
+      2日間のハッカソンに友人3人と参加しました。
+      GENKAINETという、WebRTCを用いてインターネット上にネットワークを構築してテキストのやり取りができるアプリケーションを開発し、最優秀賞を受賞しました。
+      主にフロントエンドのUIの部分の開発を担当しました。
+    techs:
+      - TypeScript
+      - React
+      - WebRTC
+    links:
+      - name: サポーターズウィンターハッカソン 開催概要
+        url: https://talent.supporterz.jp/events/b5537711-bef6-43f9-9465-3e7656e55b6e
+      - name: GENKAINETのGitHub
+        url: https://github.com/approvers/genkainet
+
+  - date: "2021-03"
+    title: Open Hack U 2020 Online Vol.5に参加
+    description: |
+      2週間のハッカソンに友人4人と参加しました。
+      オンラインプリクラという、インターネットを介して複数人でのプリクラ作成や、同時編集(デコレーション)が行えるアプリケーションを開発しました。
+      主にフロントエンドのUI部分、WebRTCでのシグナリング部分、Canvas APIを使用した編集機能の開発を担当しました。
+    techs:
+      - TypeScript
+      - Go
+      - React
+      - WebRTC
+    links:
+      - name: Open Hack U 2020 Online Vol.5 開催概要
+        url: https://hacku.yahoo.co.jp/hacku2020online5
+      - name: オンラインプリクラのGitHub
+        url: https://github.com/ProvinDevs/2020vol5-frontend
+      - name: オンラインプリクラのプレゼン動画
+        url: https://youtu.be/KG09AJPwhqo?t=1180
+
+  - date: "2021-08"
+    title: ICTトラブルシューティングコンテスト2021に参加
+
+  - date: "2021-10"
+    title: 全国高専プログラミングコンテスト2021 課題部門特別賞
+    description: |
+      部員2人と参加しました。
+      ARLDという、ARとブロックプログラミングを用いた教育アプリケーションを開発し、特別賞を受賞しました。
+      主にWebフロントエンド、バックエンド、インフラ、UIデザイン、プレゼンテーションを担当しました。
+    techs:
+      - TypeScript
+      - C#
+      - Go
+      - React
+      - Unity
+      - Firebase
+      - GCP
+    links:
+      - name: 全国高専プログラミングコンテスト2021 開催概要
+        url: https://www.procon.gr.jp/?page_id=77404
+      - name: ARLDのプレゼン動画
+        url: https://youtu.be/GpcsrOywmHA?t=15297
+
+  - date: "2022-06"
+    title: 技育博2022に参加
+    description: |
+      エンジニア学生団体の交流会に「限界開発鯖」代表として参加しました。
+    links:
+      - name: 技育博2022 開催概要
+        url: https://talent.supporterz.jp/geekhaku/2022/
+
+  - date: "2022-10"
+    title: 全国高専プログラミングコンテスト2022 競技部門に参加
+    techs:
+      - Python
+
+works:
+  - date:
+      start: "2020-04"
+    title: 初学者向けのプログラミング講座資料を作成・公開
+    description: |
+      部活の新入部員に向けたプログラミング講座資料を作成し、Webにて公開しています。
+    links:
+      - name: Kickstart Programming
+        url: https://kickstart.jo-ken.info/
+  - date: "2021-10"
+    title: 長野高専 第56回工嶺祭公式サイトを作成
+    description: |
+      イベントスケジュールや企画紹介を掲載する工嶺祭の公式サイト制作を担当しました。
+  - date: "2022-10"
+    title: 長野高専 第57回工嶺祭公式サイトを作成
+    description: |
+      去年に引き続き、工嶺祭の公式サイト制作を担当しました。
+
+skills:
+  - name: JavaScript / TypeScript
+    level: 10
+  - name: CSS3 / SCSS
+    level: 8
+  - name: Rust
+    level: 5
+  - name: Haskell
+    level: 3
+  - name: SQL
+    level: 7
+  - name: React
+    level: 9
+  - name: Next.js
+    level: 9
+  - name: Three.js
+    level: 5
+  - name: Docker
+    level: 8
+  - name: WebRTC
+    level: 5
+  - name: GraphQL
+    level: 5
+
+links:
+  - name: GitHub
+    uri: https://github.com/shun-shobon
+  - name: Twitter
+    uri: https://twitter.com/shun_shobon
+  - name: Facebook
+    uri: https://facebook.com/shunshobon
+  - name: Qiita
+    uri: https://qiita.com/shun-shobon
+  - name: Keybase
+    uri: https://keybase.io/shunshobon
+  - name: Scrapbox
+    uri: https://scrapbox.io/shunshobon
+  - name: Speaker Deck
+    uri: https://speakerdeck.com/shunshobon
+  - name: Wantedly
+    uri: https://wantedly.com/id/shun_shobon
