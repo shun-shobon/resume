@@ -1,3 +1,4 @@
+# yaml-language-server: $schema=./schema.json
 basic:
   name: Shuntaro Nishizawa
   aka: しゅん🌙
@@ -114,6 +115,7 @@ events:
       - C#
       - Go
       - React
+      - Next.js
       - Unity
       - Firebase
       - GCP
@@ -137,20 +139,24 @@ events:
       - Python
 
 works:
-  - date:
-      start: "2020-04"
-    title: 初学者向けのプログラミング講座資料を作成・公開
+  - title: 初学者向けのプログラミング講座資料を作成・公開
     description: |
       部活の新入部員に向けたプログラミング講座資料を作成し、Webにて公開しています。
     links:
       - name: Kickstart Programming
         url: https://kickstart.jo-ken.info/
-  - date: "2021-10"
-    title: 長野高専 第56回工嶺祭公式サイトを作成
+  - title: 長野高専 第56回工嶺祭公式サイトを作成
+    techs:
+      - TypeScript
+      - React
+      - Next.js
     description: |
       イベントスケジュールや企画紹介を掲載する工嶺祭の公式サイト制作を担当しました。
-  - date: "2022-10"
-    title: 長野高専 第57回工嶺祭公式サイトを作成
+  - title: 長野高専 第57回工嶺祭公式サイトを作成
+    techs:
+      - TypeScript
+      - React
+      - Next.js
     description: |
       去年に引き続き、工嶺祭の公式サイト制作を担当しました。
 
@@ -180,18 +186,18 @@ skills:
 
 links:
   - name: GitHub
-    uri: https://github.com/shun-shobon
+    url: https://github.com/shun-shobon
   - name: Twitter
-    uri: https://twitter.com/shun_shobon
+    url: https://twitter.com/shun_shobon
   - name: Facebook
-    uri: https://facebook.com/shunshobon
+    url: https://facebook.com/shunshobon
   - name: Qiita
-    uri: https://qiita.com/shun-shobon
+    url: https://qiita.com/shun-shobon
   - name: Keybase
-    uri: https://keybase.io/shunshobon
+    url: https://keybase.io/shunshobon
   - name: Scrapbox
-    uri: https://scrapbox.io/shunshobon
+    url: https://scrapbox.io/shunshobon
   - name: Speaker Deck
-    uri: https://speakerdeck.com/shunshobon
+    url: https://speakerdeck.com/shunshobon
   - name: Wantedly
-    uri: https://wantedly.com/id/shun_shobon
+    url: https://wantedly.com/id/shun_shobon
