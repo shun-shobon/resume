@@ -21,6 +21,7 @@ export const Basic = z.object({
   aka: z.string(),
   birthday: z.string(),
   interested: z.array(z.string()),
+  bio: z.string(),
 });
 
 export type History = z.infer<typeof History>;

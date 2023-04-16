@@ -21,13 +21,17 @@
               "items": {
                 "type": "string"
               }
+            },
+            "bio": {
+              "type": "string"
             }
           },
           "required": [
             "name",
             "aka",
             "birthday",
-            "interested"
+            "interested",
+            "bio"
           ],
           "additionalProperties": false
         },
