@@ -162,6 +162,13 @@ works:
       - Next.js
     description: |
       去年に引き続き、工嶺祭の公式サイト制作を担当しました。
+  - title: ブログを作成
+    techs:
+      - TypeScript
+      - React
+      - Next.js
+    description: |
+      自作のブログを作成しました。アクセシビリティに考慮し、Semantic HTMLを意識して作成しています。
 
 skills:
   - name: JavaScript / TypeScript
