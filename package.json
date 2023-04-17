@@ -4,6 +4,7 @@
   "type": "module",
   "author": "Shuntaro Nishizawa <me@s2n.tech> (https://s2n.tech)",
   "license": "MIT",
+  "packageManager": "pnpm@8.2.0",
   "scripts": {
     "gen:schema": "tsx src/bin/gen-schema.ts",
     "lint": "run-s -c lint:*",
