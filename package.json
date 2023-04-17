@@ -1,6 +1,6 @@
 {
   "name": "@shun-shobon/resume",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": "Shuntaro Nishizawa <me@s2n.tech> (https://s2n.tech)",
   "license": "MIT",
   "packageManager": "pnpm@8.2.0",
