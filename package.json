@@ -16,7 +16,7 @@
     "gen:file": "tsx src/bin/gen-file.ts",
     "gen:schema": "tsx src/bin/gen-schema.ts",
     "lint": "run-s -c lint:*",
-    "lint:eslint": "eslint --ext .ts,.tsx .",
+    "lint:eslint": "eslint --ext .ts,.tsx src/",
     "lint:prettier": "prettier --check src/",
     "lint-fix": "run-s -c lint-fix:*",
     "lint-fix:eslint": "pnpm run lint:eslint --fix",
