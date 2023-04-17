@@ -1,6 +1,0 @@
-{
-  "importMap": "import_map.json",
-  "tasks": {
-    "gen-schema": "deno run --allow-write=schema.json src/bin/gen-schema.ts"
-  }
-}

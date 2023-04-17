@@ -1,0 +1,28 @@
+{
+  "name": "@shun-shobon/resume",
+  "version": "0.0.1",
+  "type": "module",
+  "author": "Shuntaro Nishizawa <me@s2n.tech> (https://s2n.tech)",
+  "license": "MIT",
+  "scripts": {
+    "gen:schema": "tsx src/bin/gen-schema.ts",
+    "lint": "run-s -c lint:*",
+    "lint:eslint": "eslint --ext .ts,.tsx .",
+    "lint:prettier": "prettier --check src/",
+    "lint-fix": "run-s -c lint-fix:*",
+    "lint-fix:eslint": "pnpm run lint:eslint --fix",
+    "lint-fix:prettier": "prettier --write src/"
+  },
+  "devDependencies": {
+    "@shun-shobon/eslint-config-base": "^0.4.2",
+    "@tsconfig/strictest": "^2.0.0",
+    "@types/node": "^18.15.11",
+    "eslint": "^8.38.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.8.7",
+    "tsx": "^3.12.6",
+    "typescript": "^5.0.4",
+    "zod": "^3.21.4",
+    "zod-to-json-schema": "^3.20.4"
+  }
+}
