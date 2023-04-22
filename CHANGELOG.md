@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.0](https://github.com/shun-shobon/resume/compare/v0.1.0...v0.1.0) (2023-04-22)
+
+
+### Bug Fixes
+
+* Add files field ([113df73](https://github.com/shun-shobon/resume/commit/113df737520386a3a1e634555cec74ea2574e631))
+
 ## 0.1.0 (2023-04-17)
 
 
