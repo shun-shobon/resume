@@ -11,6 +11,9 @@
       "types": "./dist/mod.d.ts"
     }
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "pnpm run gen:file",
     "gen:file": "tsx src/bin/gen-file.ts",
