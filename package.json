@@ -26,7 +26,7 @@
     "lint-fix:prettier": "prettier --write src/"
   },
   "devDependencies": {
-    "@shun-shobon/eslint-config-base": "^0.4.9",
+    "@shun-shobon/eslint-config-base": "^0.4.10",
     "@tsconfig/strictest": "^2.0.1",
     "@types/node": "^18.16.16",
     "@types/prettier": "^2.7.2",
