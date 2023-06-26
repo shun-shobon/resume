@@ -3,7 +3,7 @@
   "version": "0.1.1",
   "author": "Shuntaro Nishizawa <me@s2n.tech> (https://s2n.tech)",
   "license": "MIT",
-  "packageManager": "pnpm@8.6.4",
+  "packageManager": "pnpm@8.6.5",
   "type": "module",
   "exports": {
     ".": {
