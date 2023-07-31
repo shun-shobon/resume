@@ -19,7 +19,7 @@ const js = `
 export const resume = ${JSON.stringify(resume, null, 2)};
 `;
 
-const formattedJs = prettier.format(js, {
+const formattedJs = await prettier.format(js, {
   parser: "babel",
   trailingComma: "all",
 });
@@ -32,7 +32,7 @@ interface Resume ${printNode(zodToTs(Resume).node)}
 export const resume: Resume;
 `;
 
-const formattedDts = prettier.format(dts, {
+const formattedDts = await prettier.format(dts, {
   parser: "typescript",
   trailingComma: "all",
 });
