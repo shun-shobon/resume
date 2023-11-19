@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   '@shun-shobon/eslint-config-base':
-    specifier: ^0.5.2
-    version: 0.5.2(eslint@8.54.0)(typescript@5.2.2)
+    specifier: ^1.0.12
+    version: 1.0.12(eslint@8.54.0)(typescript@5.2.2)
   '@tsconfig/strictest':
     specifier: ^2.0.2
     version: 2.0.2
@@ -347,30 +347,19 @@ packages:
       fastq: 1.15.0
     dev: true
 
-  /@shun-shobon/eslint-config-base@0.5.2(eslint@8.54.0)(typescript@5.2.2):
-    resolution: {integrity: sha512-vOyfop/P9fU9R2LIE/3K/78B8+nVn9rxNF/FG6DNFwAcuYj+Jy+GiyqcNn23QhKbs09GgJXpHqnlZRylYdpkhA==}
+  /@shun-shobon/eslint-config-base@1.0.12(eslint@8.54.0)(typescript@5.2.2):
+    resolution: {integrity: sha512-Z+l1LvNcNA/3e/edsdHmmxrVOWO2/YKlf+JAGce+fe1+3Wx7faPRapTJZuWiugEftrHrzVaRFsMA0eKC+I4CSA==}
     peerDependencies:
-      eslint: ^8.48.0
-      typescript: ^4.0.0 || ^5.0.0
+      eslint: ^8.53.0
     dependencies:
-      '@shun-shobon/eslint-config-utils': 0.2.2(eslint@8.54.0)(typescript@5.2.2)
+      '@eslint/js': 8.54.0
       '@typescript-eslint/eslint-plugin': 6.11.0(@typescript-eslint/parser@6.11.0)(eslint@8.54.0)(typescript@5.2.2)
       '@typescript-eslint/parser': 6.11.0(eslint@8.54.0)(typescript@5.2.2)
       eslint: 8.54.0
       eslint-config-prettier: 9.0.0(eslint@8.54.0)
       eslint-plugin-simple-import-sort: 10.0.0(eslint@8.54.0)
-      eslint-plugin-unicorn: 48.0.1(eslint@8.54.0)
-      typescript: 5.2.2
+      eslint-plugin-unicorn: 49.0.0(eslint@8.54.0)
     transitivePeerDependencies:
-      - supports-color
-    dev: true
-
-  /@shun-shobon/eslint-config-utils@0.2.2(eslint@8.54.0)(typescript@5.2.2):
-    resolution: {integrity: sha512-+8npzopdP+eyoUJ4MknFZ7fP5Y4ScMfSZ+avdSIclAwx+GmZi09IiA3OcX7wbnhAhdrOj1FQ4n4GcvROyYBtIQ==}
-    dependencies:
-      '@typescript-eslint/utils': 6.11.0(eslint@8.54.0)(typescript@5.2.2)
-    transitivePeerDependencies:
-      - eslint
       - supports-color
       - typescript
     dev: true
@@ -896,11 +885,11 @@ packages:
       eslint: 8.54.0
     dev: true
 
-  /eslint-plugin-unicorn@48.0.1(eslint@8.54.0):
-    resolution: {integrity: sha512-FW+4r20myG/DqFcCSzoumaddKBicIPeFnTrifon2mWIzlfyvzwyqZjqVP7m4Cqr/ZYisS2aiLghkUWaPg6vtCw==}
+  /eslint-plugin-unicorn@49.0.0(eslint@8.54.0):
+    resolution: {integrity: sha512-0fHEa/8Pih5cmzFW5L7xMEfUTvI9WKeQtjmKpTUmY+BiFCDxkxrTdnURJOHKykhtwIeyYsxnecbGvDCml++z4Q==}
     engines: {node: '>=16'}
     peerDependencies:
-      eslint: '>=8.44.0'
+      eslint: '>=8.52.0'
     dependencies:
       '@babel/helper-validator-identifier': 7.22.20
       '@eslint-community/eslint-utils': 4.4.0(eslint@8.54.0)
@@ -911,7 +900,6 @@ packages:
       indent-string: 4.0.0
       is-builtin-module: 3.2.1
       jsesc: 3.0.2
-      lodash: 4.17.21
       pluralize: 8.0.0
       read-pkg-up: 7.0.1
       regexp-tree: 0.1.27
@@ -1520,10 +1508,6 @@ packages:
 
   /lodash.merge@4.6.2:
     resolution: {integrity: sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==}
-    dev: true
-
-  /lodash@4.17.21:
-    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
     dev: true
 
   /lru-cache@6.0.0:
